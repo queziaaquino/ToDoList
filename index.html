@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+
+</head>
+
+<body>
+    <div class="dv">
+        <h1>ToDo List</h1>
+        <label for="item">Descrição: </label>
+        <input name="item" id="item" type="text">
+        <button id="btn">Inserir</button>
+    </div>
+    <div class="dv-n">
+        <h2>A fazer:</h2>
+        <ul id="list">
+
+        </ul>
+    </div>
+    <div class="dv-f">
+        <h2>Feitas:</h2>
+        <ul id="listFinished">
+
+        </ul>
+    </div>
+</body>
+</html>
